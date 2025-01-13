@@ -1,0 +1,21 @@
+comprobar commits -> git log 
+comprobar status -> git status
+comprobar modificaciones -> git diff
+invertir cambios (si no los has subido) -> git checkout prueba.html
+meter archivo que no se pueda visualizar -> gitignore
+subir archivo para que no se vea -> add gitignore
+ir a un commit anterior -> checkout "nombrecheckout" "hash" 
+volver a la rama -> git checkout "nombre_rama"
+eliminar commit recién creado -> git reset --hard "hash"
+ver todos los movimientos -> git reflog 
+poner una etiqueta a commit -> git tag "contenido" (se pondrá el cambio al commit que estes encima)
+git Branch login -> crear una rama que se llame login
+git switch login -> moverme a la rama login
+fusionar/mergear -> git merge "rama que queremos mergear"
+cambiar nombre de rama principal a main -> git Branch -m "main"
+git stat -> commit no terminado que queremos que se almacene
+git stat drop -> elimino el stat almacenado
+poner nombre de usuario -> git config --global user.name "nombre"
+poner email de usuario -> git config --global user.email "email"
+push -> enviar datos a la rama remota de GitHub
+pull -> coger data de la rama remota
